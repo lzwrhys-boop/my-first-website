@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HRFlow AI | AI 提升 HR 效率</title>
+    <meta
+      name="description"
+      content="HRFlow AI 通过招聘自动化、员工洞察与流程协同，帮助 HR 团队释放时间，聚焦人才价值。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#" class="logo">HRFlow<span>AI</span></a>
+        <nav>
+          <a href="#features">能力</a>
+          <a href="#metrics">成果</a>
+          <a href="#contact">预约演示</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="tag">AI for Human Resources</p>
+          <h1>让 AI 成为 HR 团队的效率引擎</h1>
+          <p class="subtitle">
+            从招聘到入职，从绩效到员工体验，统一在一个智能工作台。
+            减少重复事务，让 HR 把时间投入在更高价值的人才决策。
+          </p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">申请首页演示</a>
+            <button class="btn btn-ghost" id="playVideo">30 秒看方案</button>
+          </div>
+          <ul class="bullet-list">
+            <li>简历初筛效率提升 4 倍</li>
+            <li>员工咨询自动回复率达 82%</li>
+            <li>跨系统数据整合耗时下降 70%</li>
+          </ul>
+        </div>
+
+        <div class="hero-panel" aria-label="关键看板预览">
+          <div class="panel-header">
+            <p>今日 HR 智能看板</p>
+            <span>实时</span>
+          </div>
+          <div class="panel-metrics">
+            <article>
+              <h3>候选人匹配</h3>
+              <p class="value">93<span>%</span></p>
+              <small>本周 +8%</small>
+            </article>
+            <article>
+              <h3>流程自动化</h3>
+              <p class="value">126<span>项</span></p>
+              <small>每周节省 41h</small>
+            </article>
+            <article>
+              <h3>员工满意度预测</h3>
+              <p class="value">A-</p>
+              <small>风险预警 12 人</small>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="features container" id="features">
+        <article>
+          <h2>招聘加速</h2>
+          <p>JD 智能优化、简历自动评分、面试问题推荐，缩短人才获取周期。</p>
+        </article>
+        <article>
+          <h2>员工服务自动化</h2>
+          <p>政策问答机器人 + 工单自动分派，7×24 响应员工常见需求。</p>
+        </article>
+        <article>
+          <h2>组织洞察</h2>
+          <p>离职风险、绩效波动、团队负荷可视化，辅助 HRBP 预判决策。</p>
+        </article>
+      </section>
+
+      <section class="metrics" id="metrics">
+        <div class="container stats-grid">
+          <div>
+            <p class="num" data-target="52">0</p>
+            <p>平均缩短招聘周期（天）</p>
+          </div>
+          <div>
+            <p class="num" data-target="68">0</p>
+            <p>HR 重复流程减少（%）</p>
+          </div>
+          <div>
+            <p class="num" data-target="31">0</p>
+            <p>员工响应速度提升（%）</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact container" id="contact">
+        <h2>获取你的 HR AI 首页方案</h2>
+        <p>留下邮箱，我们将在 24 小时内提供定制化落地建议。</p>
+        <form class="contact-form">
+          <label>
+            工作邮箱
+            <input type="email" placeholder="you@company.com" required />
+          </label>
+          <button type="submit" class="btn btn-primary">立即预约</button>
+        </form>
+        <p class="form-note" id="formNote" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 HRFlow AI. Built for modern HR teams.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
