@@ -3,127 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HRFlow AI | AI 提升 HR 效率</title>
-    <meta
-      name="description"
-      content="HRFlow AI 通过招聘自动化、员工洞察与流程协同，帮助 HR 团队释放时间，聚焦人才价值。"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>智效 HR 门户原型</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a href="#" class="logo">HRFlow<span>AI</span></a>
-        <nav>
-          <a href="#features">能力</a>
-          <a href="#metrics">成果</a>
-          <a href="#contact">预约演示</a>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="logo-block">
+          <div class="logo-mark">HR</div>
+          <div>
+            <p class="logo-title">智效 HR 门户</p>
+            <p class="logo-sub">AI 提升效率</p>
+          </div>
+        </div>
+
+        <nav class="nav" aria-label="站点导航">
+          <a class="nav-item active" href="#">首页</a>
+          <a class="nav-item" href="#">招聘管理</a>
+          <a class="nav-item" href="#">候选人洞察</a>
+          <a class="nav-item" href="#">面试协同</a>
+          <a class="nav-item" href="#">入职与培训</a>
+          <a class="nav-item" href="#">绩效管理</a>
+          <a class="nav-item" href="#">组织效能</a>
+          <a class="nav-item" href="#">员工体验</a>
+          <a class="nav-item" href="#">薪酬与激励</a>
+          <a class="nav-item" href="#">排班与考勤</a>
+          <a class="nav-item" href="#">人才盘点</a>
+          <a class="nav-item" href="#">合规与风控</a>
+          <a class="nav-item" href="#">知识中心</a>
+          <a class="nav-item" href="#">案例与报告</a>
         </nav>
-      </div>
-    </header>
+      </aside>
 
-    <main>
-      <section class="hero container">
-        <div class="hero-copy">
-          <p class="tag">AI for Human Resources</p>
-          <h1>让 AI 成为 HR 团队的效率引擎</h1>
-          <p class="subtitle">
-            从招聘到入职，从绩效到员工体验，统一在一个智能工作台。
-            减少重复事务，让 HR 把时间投入在更高价值的人才决策。
-          </p>
-          <div class="hero-cta">
-            <a href="#contact" class="btn btn-primary">申请首页演示</a>
-            <button class="btn btn-ghost" id="playVideo">30 秒看方案</button>
+      <main class="main">
+        <section class="panel">
+          <h1>图标快捷入口</h1>
+          <div class="quick-grid">
+            <article class="quick-card"><span>🤖</span><p>智能初筛</p></article>
+            <article class="quick-card"><span>📄</span><p>简历解析</p></article>
+            <article class="quick-card"><span>🎯</span><p>岗位匹配</p></article>
+            <article class="quick-card"><span>🎙️</span><p>面试纪要</p></article>
+            <article class="quick-card"><span>📊</span><p>招聘看板</p></article>
+            <article class="quick-card"><span>🧠</span><p>人才画像</p></article>
+            <article class="quick-card"><span>🏢</span><p>组织架构</p></article>
+            <article class="quick-card"><span>🗂️</span><p>人才库</p></article>
+            <article class="quick-card"><span>📚</span><p>学习地图</p></article>
+            <article class="quick-card"><span>🏆</span><p>绩效目标</p></article>
+            <article class="quick-card"><span>🧭</span><p>入职导航</p></article>
+            <article class="quick-card"><span>💬</span><p>员工反馈</p></article>
+            <article class="quick-card"><span>🗓️</span><p>智能排班</p></article>
+            <article class="quick-card"><span>⏱️</span><p>工时分析</p></article>
+            <article class="quick-card"><span>💰</span><p>薪酬分析</p></article>
+            <article class="quick-card"><span>⚖️</span><p>合规检查</p></article>
+            <article class="quick-card"><span>🔔</span><p>消息中心</p></article>
+            <article class="quick-card"><span>📌</span><p>待办任务</p></article>
+            <article class="quick-card"><span>📎</span><p>制度模板</p></article>
+            <article class="quick-card"><span>🛰️</span><p>数据接入</p></article>
           </div>
-          <ul class="bullet-list">
-            <li>简历初筛效率提升 4 倍</li>
-            <li>员工咨询自动回复率达 82%</li>
-            <li>跨系统数据整合耗时下降 70%</li>
-          </ul>
-        </div>
+        </section>
 
-        <div class="hero-panel" aria-label="关键看板预览">
-          <div class="panel-header">
-            <p>今日 HR 智能看板</p>
-            <span>实时</span>
-          </div>
-          <div class="panel-metrics">
-            <article>
-              <h3>候选人匹配</h3>
-              <p class="value">93<span>%</span></p>
-              <small>本周 +8%</small>
+        <section class="insight-section">
+          <h2>最新动态与洞察</h2>
+          <div class="news-layout">
+            <article class="news-card news-feature">
+              <div class="cover cover-main"></div>
+              <div class="news-content">
+                <p class="news-date">2026-04-10</p>
+                <h3>AI 驱动招聘流程重构：从“人找简历”到“系统推荐人才”</h3>
+                <p class="news-summary">通过岗位语义识别、候选人能力标签与面试结构化评估，帮助 HR 缩短筛选时间、提升匹配准确度，形成可持续复用的人才运营能力。</p>
+              </div>
             </article>
-            <article>
-              <h3>流程自动化</h3>
-              <p class="value">126<span>项</span></p>
-              <small>每周节省 41h</small>
-            </article>
-            <article>
-              <h3>员工满意度预测</h3>
-              <p class="value">A-</p>
-              <small>风险预警 12 人</small>
-            </article>
-          </div>
-        </div>
-      </section>
 
-      <section class="features container" id="features">
-        <article>
-          <h2>招聘加速</h2>
-          <p>JD 智能优化、简历自动评分、面试问题推荐，缩短人才获取周期。</p>
-        </article>
-        <article>
-          <h2>员工服务自动化</h2>
-          <p>政策问答机器人 + 工单自动分派，7×24 响应员工常见需求。</p>
-        </article>
-        <article>
-          <h2>组织洞察</h2>
-          <p>离职风险、绩效波动、团队负荷可视化，辅助 HRBP 预判决策。</p>
-        </article>
-      </section>
-
-      <section class="metrics" id="metrics">
-        <div class="container stats-grid">
-          <div>
-            <p class="num" data-target="52">0</p>
-            <p>平均缩短招聘周期（天）</p>
+            <div class="news-grid">
+              <article class="news-card"><div class="cover g1"></div><div class="news-content"><p class="news-date">2026-04-09</p><h3>制造业用工波动下的人才储备模型</h3></div></article>
+              <article class="news-card"><div class="cover g2"></div><div class="news-content"><p class="news-date">2026-04-08</p><h3>面试质量评估体系如何标准化落地</h3></div></article>
+              <article class="news-card"><div class="cover g3"></div><div class="news-content"><p class="news-date">2026-04-07</p><h3>绩效反馈从季度制转向实时机制</h3></div></article>
+              <article class="news-card"><div class="cover g4"></div><div class="news-content"><p class="news-date">2026-04-06</p><h3>组织效能看板中的关键指标设计</h3></div></article>
+              <article class="news-card"><div class="cover g5"></div><div class="news-content"><p class="news-date">2026-04-05</p><h3>员工体验运营：触点管理的三个阶段</h3></div></article>
+              <article class="news-card"><div class="cover g6"></div><div class="news-content"><p class="news-date">2026-04-04</p><h3>跨区域团队的人才管理协同方案</h3></div></article>
+              <article class="news-card"><div class="cover g7"></div><div class="news-content"><p class="news-date">2026-04-03</p><h3>AI 时代的薪酬公平性与激励策略</h3></div></article>
+              <article class="news-card"><div class="cover g8"></div><div class="news-content"><p class="news-date">2026-04-02</p><h3>HRBP 如何构建业务洞察闭环</h3></div></article>
+            </div>
           </div>
-          <div>
-            <p class="num" data-target="68">0</p>
-            <p>HR 重复流程减少（%）</p>
-          </div>
-          <div>
-            <p class="num" data-target="31">0</p>
-            <p>员工响应速度提升（%）</p>
-          </div>
-        </div>
-      </section>
-
-      <section class="contact container" id="contact">
-        <h2>获取你的 HR AI 首页方案</h2>
-        <p>留下邮箱，我们将在 24 小时内提供定制化落地建议。</p>
-        <form class="contact-form">
-          <label>
-            工作邮箱
-            <input type="email" placeholder="you@company.com" required />
-          </label>
-          <button type="submit" class="btn btn-primary">立即预约</button>
-        </form>
-        <p class="form-note" id="formNote" aria-live="polite"></p>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container">
-        <p>© 2026 HRFlow AI. Built for modern HR teams.</p>
-      </div>
-    </footer>
+        </section>
+      </main>
+    </div>
 
     <script src="script.js"></script>
   </body>
