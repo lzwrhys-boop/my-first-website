@@ -1,94 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>智效 HR 门户原型</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="layout">
-      <aside class="sidebar">
-        <div class="logo-block">
-          <div class="logo-mark">HR</div>
-          <div>
-            <p class="logo-title">智效 HR 门户</p>
-            <p class="logo-sub">AI 提升效率</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR-AI 门户 | 智能驱动的人力资源中枢</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark">HR</div>
+        <div>
+          <p class="brand-name">HR-AI 门户</p>
+          <p class="brand-sub">连接招聘、组织、绩效与人才决策的智能入口</p>
+        </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="#solutions">解决方案</a>
+        <a href="#scenes">应用场景</a>
+        <a href="#insights">洞察内容</a>
+        <a href="#contact">立即体验</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">AI FOR HR</p>
+          <h1>一个真正像首页的<br />HR-AI 门户</h1>
+          <p class="hero-text">
+            把招聘管理、人才盘点、绩效协同、组织效能和知识洞察整合成统一入口，
+            让 HR 不再在多个系统之间来回切换，而是直接围绕业务问题找到答案。
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#solutions">查看解决方案</a>
+            <a class="btn btn-secondary" href="#insights">查看最新洞察</a>
+          </div>
+
+          <div class="hero-points">
+            <span>招聘提效</span>
+            <span>绩效协同</span>
+            <span>组织洞察</span>
+            <span>AI 知识中枢</span>
           </div>
         </div>
 
-        <nav class="nav" aria-label="站点导航">
-          <a class="nav-item active" href="#">首页</a>
-          <a class="nav-item" href="#">招聘管理</a>
-          <a class="nav-item" href="#">候选人洞察</a>
-          <a class="nav-item" href="#">面试协同</a>
-          <a class="nav-item" href="#">入职与培训</a>
-          <a class="nav-item" href="#">绩效管理</a>
-          <a class="nav-item" href="#">组织效能</a>
-          <a class="nav-item" href="#">员工体验</a>
-          <a class="nav-item" href="#">薪酬与激励</a>
-          <a class="nav-item" href="#">排班与考勤</a>
-          <a class="nav-item" href="#">人才盘点</a>
-          <a class="nav-item" href="#">合规与风控</a>
-          <a class="nav-item" href="#">知识中心</a>
-          <a class="nav-item" href="#">案例与报告</a>
-        </nav>
-      </aside>
-
-      <main class="main">
-        <section class="panel">
-          <h1>图标快捷入口</h1>
-          <div class="quick-grid">
-            <article class="quick-card"><span>🤖</span><p>智能初筛</p></article>
-            <article class="quick-card"><span>📄</span><p>简历解析</p></article>
-            <article class="quick-card"><span>🎯</span><p>岗位匹配</p></article>
-            <article class="quick-card"><span>🎙️</span><p>面试纪要</p></article>
-            <article class="quick-card"><span>📊</span><p>招聘看板</p></article>
-            <article class="quick-card"><span>🧠</span><p>人才画像</p></article>
-            <article class="quick-card"><span>🏢</span><p>组织架构</p></article>
-            <article class="quick-card"><span>🗂️</span><p>人才库</p></article>
-            <article class="quick-card"><span>📚</span><p>学习地图</p></article>
-            <article class="quick-card"><span>🏆</span><p>绩效目标</p></article>
-            <article class="quick-card"><span>🧭</span><p>入职导航</p></article>
-            <article class="quick-card"><span>💬</span><p>员工反馈</p></article>
-            <article class="quick-card"><span>🗓️</span><p>智能排班</p></article>
-            <article class="quick-card"><span>⏱️</span><p>工时分析</p></article>
-            <article class="quick-card"><span>💰</span><p>薪酬分析</p></article>
-            <article class="quick-card"><span>⚖️</span><p>合规检查</p></article>
-            <article class="quick-card"><span>🔔</span><p>消息中心</p></article>
-            <article class="quick-card"><span>📌</span><p>待办任务</p></article>
-            <article class="quick-card"><span>📎</span><p>制度模板</p></article>
-            <article class="quick-card"><span>🛰️</span><p>数据接入</p></article>
+        <div class="hero-panel">
+          <div class="panel-card panel-highlight">
+            <p class="panel-label">门户定位</p>
+            <h3>不是栏目导航页，<br />而是对外展示的产品首页</h3>
+            <p>
+              第一屏先讲清楚“你是谁、你解决什么问题、为什么值得信、下一步做什么”。
+            </p>
           </div>
-        </section>
 
-        <section class="insight-section">
-          <h2>最新动态与洞察</h2>
-          <div class="news-layout">
-            <article class="news-card news-feature">
-              <div class="cover cover-main"></div>
-              <div class="news-content">
-                <p class="news-date">2026-04-10</p>
-                <h3>AI 驱动招聘流程重构：从“人找简历”到“系统推荐人才”</h3>
-                <p class="news-summary">通过岗位语义识别、候选人能力标签与面试结构化评估，帮助 HR 缩短筛选时间、提升匹配准确度，形成可持续复用的人才运营能力。</p>
-              </div>
-            </article>
-
-            <div class="news-grid">
-              <article class="news-card"><div class="cover g1"></div><div class="news-content"><p class="news-date">2026-04-09</p><h3>制造业用工波动下的人才储备模型</h3></div></article>
-              <article class="news-card"><div class="cover g2"></div><div class="news-content"><p class="news-date">2026-04-08</p><h3>面试质量评估体系如何标准化落地</h3></div></article>
-              <article class="news-card"><div class="cover g3"></div><div class="news-content"><p class="news-date">2026-04-07</p><h3>绩效反馈从季度制转向实时机制</h3></div></article>
-              <article class="news-card"><div class="cover g4"></div><div class="news-content"><p class="news-date">2026-04-06</p><h3>组织效能看板中的关键指标设计</h3></div></article>
-              <article class="news-card"><div class="cover g5"></div><div class="news-content"><p class="news-date">2026-04-05</p><h3>员工体验运营：触点管理的三个阶段</h3></div></article>
-              <article class="news-card"><div class="cover g6"></div><div class="news-content"><p class="news-date">2026-04-04</p><h3>跨区域团队的人才管理协同方案</h3></div></article>
-              <article class="news-card"><div class="cover g7"></div><div class="news-content"><p class="news-date">2026-04-03</p><h3>AI 时代的薪酬公平性与激励策略</h3></div></article>
-              <article class="news-card"><div class="cover g8"></div><div class="news-content"><p class="news-date">2026-04-02</p><h3>HRBP 如何构建业务洞察闭环</h3></div></article>
+          <div class="mini-grid">
+            <div class="panel-card">
+              <p class="mini-title">招聘</p>
+              <p class="mini-text">简历解析、岗位匹配、面试协同</p>
+            </div>
+            <div class="panel-card">
+              <p class="mini-title">组织</p>
+              <p class="mini-text">组织效能、人才盘点、结构洞察</p>
+            </div>
+            <div class="panel-card">
+              <p class="mini-title">绩效</p>
+              <p class="mini-text">目标对齐、反馈机制、结果分析</p>
+            </div>
+            <div class="panel-card">
+              <p class="mini-title">知识</p>
+              <p class="mini-text">案例、制度、研究、最佳实践</p>
             </div>
           </div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+    <section class="stats">
+      <div class="container stat-grid">
+        <div class="stat-card">
+          <h3>01</h3>
+          <p>统一入口</p>
+          <span>从“功能堆叠”变成“业务问题导向”</span>
+        </div>
+        <div class="stat-card">
+          <h3>02</h3>
+          <p>核心场景</p>
+          <span>招聘、绩效、组织、学习、员工体验</span>
+        </div>
+        <div class="stat-card">
+          <h3>03</h3>
+          <p>更像产品</p>
+          <span>首页先立住定位，再承接功能导航</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="solutions" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">SOLUTIONS</p>
+          <h2>核心解决方案</h2>
+          <p>先展示最重要的能力，不要一上来就铺满十几个栏目。</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <h3>智能招聘管理</h3>
+            <p>覆盖简历解析、岗位匹配、面试纪要与招聘看板，提升筛选效率与协同质量。</p>
+          </article>
+
+          <article class="info-card">
+            <h3>绩效目标协同</h3>
+            <p>打通目标设定、过程反馈和结果复盘，让绩效真正服务战略落地。</p>
+          </article>
+
+          <article class="info-card">
+            <h3>组织效能洞察</h3>
+            <p>围绕编制、结构、成本、效率与人才密度构建管理视图。</p>
+          </article>
+
+          <article class="info-card">
+            <h3>人才盘点与发展</h3>
+            <p>通过人才画像、潜力评估和学习地图，支撑关键人才培养与储备。</p>
+          </article>
+
+          <article class="info-card">
+            <h3>员工体验运营</h3>
+            <p>从入职、反馈到成长触点，形成可持续优化的员工旅程管理。</p>
+          </article>
+
+          <article class="info-card">
+            <h3>知识与案例中枢</h3>
+            <p>沉淀制度模板、研究报告、行业案例与最佳实践，形成 AI 可调用资产。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="scenes" class="section section-dark">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">SCENARIOS</p>
+          <h2>典型应用场景</h2>
+          <p>首页不是“有什么功能”，而是“能帮客户解决哪些问题”。</p>
+        </div>
+
+        <div class="scenario-grid">
+          <div class="scenario-card">
+            <span>场景 01</span>
+            <h3>招聘提效</h3>
+            <p>把人找简历，升级为系统理解岗位并推荐候选人。</p>
+          </div>
+          <div class="scenario-card">
+            <span>场景 02</span>
+            <h3>绩效校准</h3>
+            <p>让战略目标、部门 KPI 与个人目标形成可追踪链路。</p>
+          </div>
+          <div class="scenario-card">
+            <span>场景 03</span>
+            <h3>组织诊断</h3>
+            <p>围绕业务增长、结构效率和关键岗位风险，形成决策支持。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="insights" class="section">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">INSIGHTS</p>
+          <h2>最新动态与洞察</h2>
+          <p>内容区放在首页中后段，用来强化专业感和持续更新感。</p>
+        </div>
+
+        <div class="insight-grid">
+          <article class="insight-card">
+            <p class="date">2026-04-10</p>
+            <h3>AI 驱动招聘流程重构：从“人找简历”到“系统推荐人才”</h3>
+            <p>通过岗位语义识别、候选人标签和结构化评估，提升筛选质量与复用效率。</p>
+          </article>
+
+          <article class="insight-card">
+            <p class="date">2026-04-08</p>
+            <h3>面试质量评估体系如何标准化落地</h3>
+            <p>从问题设计、评价口径和纪要沉淀三个层面，建立一致的面试机制。</p>
+          </article>
+
+          <article class="insight-card">
+            <p class="date">2026-04-06</p>
+            <h3>组织效能看板中的关键指标设计</h3>
+            <p>从编制、效率、管理跨度和人才密度出发，搭建管理者真正会看的仪表盘。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta-section">
+      <div class="container cta-box">
+        <div>
+          <p class="section-tag">NEXT STEP</p>
+          <h2>把门户从“原型页”升级成“可演示的正式首页”</h2>
+          <p>先把首页立住，再逐步补二级页面、交互和真实内容。</p>
+        </div>
+        <a class="btn btn-primary" href="#">申请体验</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 HR-AI 门户原型</p>
+      <p>让 HR 的每个关键决策，都更快一步。</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
