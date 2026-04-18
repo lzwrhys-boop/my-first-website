@@ -110,6 +110,10 @@ a {
   align-items: start;
 }
 
+.hero-copy {
+  align-self: start;
+}
+
 .eyebrow,
 .section-tag {
   margin: 0 0 14px;
@@ -121,9 +125,9 @@ a {
 
 .hero h1 {
   margin: 0;
-  font-size: clamp(2.3rem, 5vw, 4.4rem);
-  line-height: 1.06;
-  letter-spacing: -0.03em;
+  font-size: clamp(2.4rem, 5vw, 5.2rem);
+  line-height: 1.04;
+  letter-spacing: -0.04em;
 }
 
 .hero-text {
@@ -187,6 +191,34 @@ a {
   font-size: 0.88rem;
   color: #d4ccbf;
   background: rgba(255, 255, 255, 0.02);
+}
+
+.hero-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.summary-item {
+  padding: 16px 18px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.summary-item strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.96rem;
+  color: var(--text);
+}
+
+.summary-item span {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-soft);
 }
 
 .hero-panel {
@@ -407,6 +439,10 @@ a {
 
   .top-nav {
     display: none;
+  }
+
+  .hero-summary {
+    grid-template-columns: 1fr;
   }
 
   .cta-box {
