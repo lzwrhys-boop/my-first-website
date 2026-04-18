@@ -1,9 +1,10 @@
-const navItems = document.querySelectorAll('.nav-item');
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
 
-navItems.forEach((item) => {
-  item.addEventListener('click', (event) => {
-    event.preventDefault();
-    navItems.forEach((entry) => entry.classList.remove('active'));
-    item.classList.add('active');
-  });
+window.addEventListener("load", () => {
+  if (window.location.hash) {
+    history.replaceState(null, "", window.location.pathname);
+  }
+  window.scrollTo(0, 0);
 });
